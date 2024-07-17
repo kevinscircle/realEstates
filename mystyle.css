@@ -10,7 +10,8 @@
 }
 
 body {
-    font-family: arial;
+    font-family: "Kalnia Glaze", serif;
+    /* font-family: "Wittgenstein", serif; */
 }
 p {
     line-height: 2;
@@ -67,6 +68,39 @@ h3 {
 /*#endregion*/
 
 /*#region main*/
+.flex-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/*#endregion*/
+
+
+
+
+/*#region*/
+
+.house-item {
+    background-color: red;
+}
+.house-item-img {
+   
+}
+
+.house-item-text {
+padding: 20px;
+}
+
+.btn-details {
+    display: block;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  
+}
 
 /*#endregion*/
 

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form action="">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+          <label for="name">Name:</label>
+          <input id="name" name="name" placeholder="Name" />
+        </div>
+        <div>
+          <label for="">Age:</label>
+          <input type="number" />
+        </div>
+        <div>
+          <label for="">Email:</label>
+          <input type="email" />
+        </div>
+        <div>
+          <label for="">password:</label>
+          <input type="password" />
+        </div>
+        <div>
+          <label for="">Date:</label>
+          <input type="date" />
+        </div>
+        <div>
+          <label for="">Color:</label>
+          <input type="color" />
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea name="" id="message" maxlength="150"></textarea>
+          </div>
+          <div>
+            <label for="">Product Type:</label>
+            <select name="" id="">
+                <option value="">Option #1</option>
+                <option value="">Option #2</option>
+                <option value="">Option #3</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="">Time:</label>
+            <input type="time">
+          </div>
+          <div>
+            <label for="status">Status:</label>
+            Active <input name="status" type="radio" value="active">
+            Inactive <input name="status" type="radio" value="inactive">
+          </div>
+
+          <div>
+            <label for=""Pet:></label>
+            Dog <input type="checkbox">
+            Cat <input type="checkbox">
+          </div>
+          <button>Confirm</button>
+          <button disabled>Cancel</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

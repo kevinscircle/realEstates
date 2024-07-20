@@ -13,6 +13,7 @@ body {
     /* font-family: "Kalnia Glaze", serif; */
     font-family: "Wittgenstein", serif;
 }
+
 p {
     line-height: 2;
 }
@@ -39,14 +40,24 @@ h3 {
 
 /*#region utilities*/
 .price-listing {
-color: green;
+    color: green;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+.underline {
+    border-bottom: 1px black solid;
+
 }
 
 /*#endregion*/
 
-/*#region utilities*/
-
-/*#endregion*/
 
 /*#regio header*/
 .primary-header {
@@ -55,7 +66,7 @@ color: green;
     background-size: cover;
     color: white;
     text-align: center;
-    
+
 }
 
 .menu a {
@@ -72,6 +83,7 @@ color: green;
     justify-content: space-around;
     align-items: center;
 }
+
 /*#endregion*/
 
 /*#region main*/
@@ -90,15 +102,17 @@ color: green;
 /*#region house listings*/
 
 .house-item {
+
     background-color: rgb(243, 242, 242);
-    margin-right: 10px;
-}
-.house-item-img {
-   
+    /* margin-right: 10px; */
+    /* justify-content: space-between; */
+
 }
 
+.house-item-img {}
+
 .house-item-text {
-padding: 20px;
+    padding: 20px;
 }
 
 .btn-details {
@@ -108,7 +122,7 @@ padding: 20px;
     border-radius: 5px;
     text-align: center;
     margin-top: 30px;
-  
+
 }
 
 .flex-listing-details {
@@ -116,27 +130,115 @@ padding: 20px;
     flex-direction: row;
     justify-content: space-around;
 }
+
 .all-listing-flex {
     display: flex;
-  
+    justify-content: space-evenly;
+    gap: 30px;
+
 }
 
 .listing-list-style {
     list-style: none;
 }
-.listing-room-type{
+
+.listing-room-type {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100px;
-    
+
 }
 
 .house-item-text h3 {
-    font-weight:900 ;
-   
-    
+    font-weight: 900;
+
+
 }
 
 /*#endregion*/
 
+
+/*#region contact*/
+
+.contact-header {
+    background-color: orange;
+    height: 300px;
+}
+
+.header-flex-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 50px;
+
+}
+
+.menu-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+.menu-contact a {
+    color: black;
+    /* margin-right: 30px; */
+
+}
+
+.contact-form {
+    background-color: rgb(239, 236, 236);
+    width: 800px;
+}
+
+.main-flex-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+}
+
+
+.contact-container-main {
+    width: 1000px;
+}
+
+
+
+
+/* footer */
+.footer-contact {
+    background-color: rgb(239, 236, 236);
+    height: 100px;
+}
+
+.flex-footer-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.flex-copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+
+}
+
+.contact-social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+.form-container {}
+
+/*#endregion*/
